@@ -1,0 +1,32 @@
+:root{
+    --left:hsl(290, 85%, 36%);
+    --right:hsl(66, 64%, 44%);
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.Mycontainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    background-color: aquamarine;
+    gap: 1rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 600px;
+    background-image: linear-gradient(var(--left), var(--right));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+width: 90vh;
+border-radius: 30px;
+}
