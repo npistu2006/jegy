@@ -1,6 +1,6 @@
 :root{
-    --left:hsl(290, 85%, 36%);
-    --right:hsl(66, 64%, 44%);
+    --left:hsl(291, 13%, 58%);
+    --right:hsl(229, 15%, 50%);
 }
 *{margin: 0; padding: 0; box-sizing: border-box;}
 .Mycontainer{
@@ -12,7 +12,7 @@
     margin: 0 auto;
     justify-items: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(83, 92, 89);
     gap: 1rem;
 }
 .content{
