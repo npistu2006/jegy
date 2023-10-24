@@ -25,9 +25,29 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
 }
 iframe{
 height: 100%;
-width: 90vh;
+width: 100vh;
 border-radius: 30px;
+box-shadow: 0 0 10px 2px hsl(184, 29%, 63%);
+}
+
+header h1{
+    text-shadow:  2px 2px 10px black;
+}
+
+@media (max-width:1000px){
+    iframe
+    {
+        display:none ;
+    }
+    header h1
+    {
+        font-size: 3rem;
+    }
 }
